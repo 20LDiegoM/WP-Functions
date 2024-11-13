@@ -1,6 +1,6 @@
 <?php
 
-use MweUnpu\Table\MediaTable;
+use xxUnpu\Table\MediaTable;
 
 // Instantiate the MediaTable class and prepare the items for display
 $media_table = new MediaTable();
@@ -114,7 +114,7 @@ $input_date_five = $cronjob_five_years_status ? 'disabled=""' : '';
 
     <!-- Search box and display of media table -->
     <form method="post">
-        <?php $media_table->search_box('search', 'unpu_MWE_search_id'); ?>
+        <?php $media_table->search_box('search', 'unpu_xx_search_id'); ?>
         <?php $media_table->display(); ?>
     </form>
 </div>
